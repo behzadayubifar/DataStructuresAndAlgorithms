@@ -150,7 +150,9 @@ class Graph {
         // print(biblography);
         return true;
       }
-      if (_hasCycle(root, all, visiting, visited /* , track */)) return true;
+      if (_hasCycle(neighbour, all, visiting, visited /* , track */))
+        return true;
+
       visiting.remove(neighbour);
       visited.add(neighbour);
       return false;
