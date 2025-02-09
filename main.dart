@@ -1,20 +1,46 @@
 import 'package:ds_algo/AVLTree.dart';
+import 'package:ds_algo/Graphs.dart';
 import 'package:ds_algo/Trie.dart';
 import 'package:ds_algo/heaps.dart';
 import 'package:ds_algo/tree2.dart';
+import 'package:ds_algo/weighted_graph.dart';
 
 // import 'lib/linkedlist.dart';
 
 void main(List<String> args) {
+  // --- Weighted Graphs
+  final wg = WeightedGraph();
+
+  // --- Graphs
+  /*  final g = Graph();
+  g.addNode("A");
+  g.addNode("B");
+  g.addNode("C");
+  g.addNode("D");
+  g.addNode("E");
+  g.addNode("T");
+  g.addNode("F");
+  g.addEdge("A", "B");
+  g.addEdge("A", "C");
+  g.addEdge("B", "D");
+  g.addEdge("C", "E");
+  g.addEdge("T", "E");
+  g.addEdge("D", "T");
+  g.addEdge("T", "F");
+  g.printGraph();
+  // g.removeEdge("A", "C");
+  g.printGraph();
+  print(g.traverseDepthFirst("B")); */
+
   // --- Tries
-  final t = Trie();
+/*   final t = Trie();
   t.insert("can");
   t.insert("cat");
   t.insert("catty");
   t.insert("canada");
   t.insert("canadian");
   t.insert("behzad");
-  print(t.findWords("can"));
+  print(t.findWords("can")); */
   // t.remove("");
   // print(t.contains("cat"));
   // t.traverse();
